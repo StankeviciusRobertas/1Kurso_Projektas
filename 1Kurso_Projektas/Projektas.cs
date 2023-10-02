@@ -13,7 +13,7 @@
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine();            
             
-            //Kvieciam Login() metoda, ir grazinam su out, ir galime tada naudoti ji kitur kaip fullName rezultata
+            //Kvieciam Login() metoda, ir grazinam su out, ir galime tada naudoti ji kitur kaip fullName rezultata.
             Login(out string userName, out string userSurname);
                 string fullName = userName + " " + userSurname;
                 Console.WriteLine($"Prisijunges vartotojas: {fullName}");
